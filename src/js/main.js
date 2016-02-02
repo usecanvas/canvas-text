@@ -7,32 +7,9 @@ function main() {
 }
 
 const text = `\
-When, in the course of human events, it becomes necessary for one people to \
-dissolve the political bands which have connected them with another, and to \
-assume among the powers of the earth, the separate and equal station to \
-which the laws of nature and of nature's God entitle them, a decent respect \
-to the opinions of mankind requires that they should declare the causes \
-which impel them to the separation. \
-
-We hold these truths to be self-evident, that all men are created equal, \
-that they are endowed by their Creator with certain unalienable rights, that \
-among these are life, liberty and the pursuit of happiness. That to secure \
-these rights, governments are instituted among men, deriving their just \
-powers from the consent of the governed. That whenever any form of \
-government becomes destructive of these ends, it is the right of the people \
-to alter or to abolish it, and to institute new government, laying its \
-foundation on such principles and organizing its powers in such form, as to \
-them shall seem most likely to effect their safety and happiness. Prudence, \
-indeed, will dictate that governments long established should not be changed \
-for light and transient causes; and accordingly all experience hath shown \
-that mankind are more disposed to suffer, while evils are sufferable, than \
-to right themselves by abolishing the forms to which they are accustomed. \
-But when a long train of abuses and usurpations, pursuing invariably the \
-same object evinces a design to reduce them under absolute despotism, it is \
-their right, it is their duty, to throw off such government, and to provide \
-new guards for their future security. -- Such has been the patient \
-sufferance of these colonies; and such is now the necessity which constrains \
-them to alter their former systems of government. The history of the present \
-King of Great Britain is a history of repeated injuries and usurpations, all \
-having in direct object the establishment of an absolute tyranny over these \
-states. To prove this, let facts be submitted to a candid world.`;
+A green hunting cap squeezed the top of the fleshy balloon of a head. The green earflaps, full of large ears and uncut hair and the fine bristles that grew in the ears themselves, stuck out on either side like turn signals indicating two directions at once. Full, pursed lips protruded beneath the bushy black moustache and, at their corners, sank into little folds filled with disapproval and potato chip crumbs. In the shadow under the green visor of the cap Ignatius J. Reilly's supercilious blue and yellow eyes looked down upon the other people waiting under the clock at the D. H. Holmes department store, studying the crowd of people for signs of bad taste in dress. Several of the outfits, Ignatius noticed, were new enough and expensive enough to be properly considered offenses against taste and decency. Possession of anything new or expensive only reflected a person's lack of theology and geometry; it could even cast doubts upon one's soul.
+Ignatius himself was dressed comfortably and sensibly. The hunting cap prevented head colds. The voluminous tweed trousers were durable and permitted unusually free locomotion. Their pleats and nooks contained pockets of warm, stale air that soothed Ignatius. The plaid flannel shirt made a jacket unnecessary while the muffler guarded exposed Reilly skin between earflap and collar. The outfit was acceptable by any theological and geometrical standards, however abstruse, and suggested a rich inner life.
+Shifting from one hip to the other in his lumbering, elephantine fashion, Ignatius sent waves of flesh rippling beneath the tweed and flannel, waves that broke upon buttons and seams. Thus rearranged, he contemplated the long while that he had been waiting for his mother. Principally he considered the discomfort he was beginning to feel. It seemed as if his whole being was ready to burst from his swollen suede desert boots, and, as if to verify this, Ignatius turned his singular eyes toward his feet. The feet did indeed look swollen. He was prepared to offer the sight of those bulging boots to his mother as evidence of her thoughtlessness. Looking up, he saw the sun beginning to descend over the Mississippi at the foot of Canal Street. The Holmes clock said almost five. Already he was polishing a few carefully worded accusations designed to reduce his mother to repentance or, at least, confusion. He often had to keep her in her place.
+She had driven him downtown in the old Plymouth, and while she was at the doctor's seeing about her arthritis, Ignatius had bought some sheet music at Werlein's for his trumpet and a new string for his lute. Then he had wandered into the Penny Arcade on Royal Street to see whether any new games had been installed. He had been disappointed to find the miniature mechanical baseball game gone. Perhaps it was only being repaired. The last time that he had played it the batter would not work and, after some argument, the management had returned his nickel, even though the Penny Arcade people had been base enough to suggest that Ignatius had himself broken the baseball machine by kicking it.
+Concentrating upon the fate of the miniature baseball machine, Ignatius detached his being from the physical reality of Canal Street and the people around him and therefore did not notice the two eyes that were hungrily watching him from behind one of D. H. Holmes' pillars, two sad eyes shining with hope and desire.
+Was it possible to repair the machine in New Orleans? Probably so. However, it might have to be sent to some place like Milwaukee or Chicago or some other city whose name Ignatius associated with efficient repair shops and permanently smoking factories. Ignatius hoped that the baseball game was being carefully handled in shipment, that none of its little players was being chipped or maimed by brutal railroad employees determined to ruin the railroad forever with damage claims from shippers, railroad employees who would subsequently go on strike and destroy the Illinois Central.`;
