@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "babel-preset-stage-0": "6.3.13",
+    "babelify": "7.2.0",
+    "browserify": "13.0.0",
+    "foreman": "1.4.1",
+    "node-static": "0.7.7",
+    "stylus": "0.53.0",
+    "uglifyify": "3.0.1"
+  },
+  "scripts": {
+    "build": "make",
+    "serve": "static",
+    "watch": "make watch",
+    "dev": "nf start"
+  }
+}
