@@ -14,7 +14,7 @@ export default class Canvas {
       const width = getComputedStyle(document.querySelector('#content')).width;
       this.element.width = parseInt(width);
 
-      let context = this.element.getContext('2d');
+      let context = this.element.getContext('2d', { alpha: false });
       const style = getComputedStyle(this.element);
       const metrics = new FontMetrics(style.fontFamily, parseInt(style.fontSize));
       const maxWidth = this.element.width - 64;
@@ -23,7 +23,7 @@ export default class Canvas {
       context.font = style.font;
 
       for (const line of this.lines) {
-        const wordSplit = /(?:[^\s-]+-?)|(?:[\s-])/g;
+        const wordSplit = /(?:[^\s-]+[ -]?)|(?:[\s-])/g;
         let renderedLine = '';
 
         let word;
@@ -47,11 +47,13 @@ export default class Canvas {
 
       let offsetY = metrics.height * 3;
 
-      const height = metrics.height * 3 +
-        metrics.height * 1.4285 * renderedLines.length;
+      const height = offsetY + metrics.height * 1.4285 * renderedLines.length;
       this.element.height = height;
 
       context.font = style.font;
+      context.fillStyle = 'white';
+      context.fillRect(0, 0, this.element.width, this.element.height);
+      context.fillStyle = style.color;
 
       for (const line of renderedLines) {
         context.fillText(line, 32, offsetY);
