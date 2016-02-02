@@ -1,43 +1,12 @@
-import Cursor from './cursor';
 import FontMetrics from './font-metrics';
 
 export default class Canvas {
   constructor(element, text) {
-    this.cursor = new Cursor(element);
     this.element = element;
-    this.focused = false;
-    this.lines   = text.split('\n');
+    this.lines = text.split('\n');
 
-    this.bindResize();
-    this.bindFocusEvents();
     this.redraw();
-  }
-
-  bindFocusEvents() {
-    document.addEventListener('click', ::this.blur);
-    this.element.addEventListener('click', ::this.click);
-  }
-
-  bindResize() {
     window.addEventListener('resize', ::this.redraw);
-  }
-
-  blur(event) {
-    if (event.target === this.element) {
-      return;
-    }
-
-    this.focused = false;
-    this.cursor.blur();
-  }
-
-  click() {
-    this.focus();
-  }
-
-  focus() {
-    this.focused = true;
-    this.cursor.focus();
   }
 
   redraw() {
@@ -83,7 +52,7 @@ export default class Canvas {
       this.element.height = height;
 
       context.font = style.font;
-      
+
       for (const line of renderedLines) {
         context.fillText(line, 32, offsetY);
         offsetY += metrics.height * 1.4285;
